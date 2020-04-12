@@ -171,6 +171,7 @@ section.recipe-card {
 	justify-content: start;
 }
 button.whatsapp-copy {
+	font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-weight: bold;
 	color: #555;
 	font-size: 0.75rem;
