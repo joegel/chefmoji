@@ -184,7 +184,7 @@ button.whatsapp-copy {
 button.whatsapp-copy:hover {
 	background: #888;
 	color: #fffaf7;
-	transition: color 450ms ease-in-out;
+	transition: color 250ms ease-in-out;
 }
 
 span.recipe-text {
