@@ -184,7 +184,15 @@ button.whatsapp-copy {
 }
 
 button.whatsapp-copy:hover {
-	background: #888;
+	background: black;
+	border: 2px solid black;
+	color: #fffaf7;
+	transition: color 150ms ease-in-out;
+}
+
+button.whatsapp-copy:active {
+	background: black;
+	border: 2px solid black;
 	color: #fffaf7;
 	transition: color 150ms ease-in-out;
 }

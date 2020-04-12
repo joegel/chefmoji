@@ -61,7 +61,22 @@
 		4.   Squeeze 🍋 on it and enjoy!
 		
 		```via chefmoji.co```"></span>
-		<button class="whatsapp-copy" id="whatsapp-copy">Copy for WhatsApp</button>
+		<button class="whatsapp-copy" id="btn" data-clipboard-text="*SUPER SIMPLE SALMON*
+
+		*Ingredients:*
+		
+		🐟  2 fillets salmon
+		🍋  1 lemon
+		🏺  1 tbsp. olive oil
+		
+		*Steps:*
+		
+		1.   Take the 🐟 and coat it in 🏺, then garnish with salt + pepper.
+		2.   Heat up a frying pan with nothing in it for 3 minutes on high heat. Should be really hot!
+		3.   Carefully place the 🐟 in and cook for 3 minutes on skin side, then flip and cook for 5 minutes on the other side.
+		4.   Squeeze 🍋 on it and enjoy!
+		
+		```via chefmoji.co```">Copy for WhatsApp</button>
 	</section>
 	<!--endregion-->
 	<!--#region--><!--recipe-card roast chicken-->
@@ -165,6 +180,22 @@
 		<p>Great recipes, using only emojis.</p>
 	</section>
 </main>
-<script src ="script.js"></script>
+<!--#region--><!--clipboard-js-->
+<script src="../dist/clipboard.min.js"></script>
+
+    <!-- 3. Instantiate clipboard by passing a HTML element -->
+    <script>
+    var btn = document.getElementById('btn');
+    var clipboard = new ClipboardJS(btn);
+
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+    </script>
+<!--endregion-->
 </body>
 </html>
