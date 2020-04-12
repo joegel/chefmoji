@@ -127,8 +127,7 @@ main {
 
   h2 {
 	  font-size: 2em;
-	  color: rgba(0, 0, 0, 1);
-	  margin-bottom: 1rem;
+	  margin-bottom: 0.25rem;
   }
 
   time {
@@ -169,6 +168,7 @@ main {
 section.recipe-card {
 	display: flex;
 	flex-direction: column;
+	justify-content: start;
 }
 button.whatsapp-copy {
 	font-weight: bold;
