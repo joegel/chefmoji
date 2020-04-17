@@ -1,8 +1,17 @@
+@font-face {
+	font-family: "Twitter Emoji";
+	src: url('/Chefmoji/chefmoji/TwitterColorEmoji-SVGinOT.ttf') format('truetype');
+}
+
 *,
 *::before,
 *::after {
 	box-sizing: border-box;
 
+}
+
+.emoji {
+	font-family: "Twitter Emoji";
 }
 
 header {
@@ -112,7 +121,7 @@ nav li:first-child{
 
 
 body {
-	font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+	font-family: "Twitter Emoji", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
 	background-color: #fffaf7;
 	line-height: 1.5;
 	margin: 0;
