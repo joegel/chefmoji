@@ -119,7 +119,7 @@ nav li:first-child{
 
 
 body {
-	font-family: "Segoe UI Emojis";
+	font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
 	background-color: #fffaf7;
 	line-height: 1.5;
 	margin: 0;
