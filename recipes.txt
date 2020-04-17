@@ -14,21 +14,3 @@
 4.   Squeeze 🍋 on it and enjoy!
 
 ```via chefmoji.co```
-
-
-<button class="whatsapp-copy" id="btn" data-clipboard-text="*SUPER SIMPLE SALMON*
-
-		*Ingredients:*
-		
-		🐟 2 fillets salmon
-		🍋 1 lemon
-		🏺 1 tbsp. olive oil
-		
-		*Steps:*
-		
-		1. Take the 🐟 and coat it in 🏺, then garnish with salt + pepper.
-		2. Heat up a frying pan with nothing in it for 3 minutes on high heat. Should be really hot!
-		3. Carefully place the 🐟 in and cook for 3 minutes on skin side, then flip and cook for 5 minutes on the other side.
-		4. Squeeze 🍋 on it and enjoy!
-		
-		```via chefmoji.co```">Copy for WhatsApp</button>
